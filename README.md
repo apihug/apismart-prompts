@@ -8,6 +8,8 @@ Fell free to submit yours!
 
 There are tones of awesome prompts opensource, if you find some please recommend;
 
+if you do not know how to write a good prompt, Jina has [tool](https://promptperfect.jina.ai/) help you to optimize;
+
 
 ## Refer
 

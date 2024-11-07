@@ -7,6 +7,9 @@ build/
 
 playground/
 
+push-god.bat
+help-push.bat
+
 
 ### STS ###
 .apt_generated
