@@ -24,3 +24,4 @@ if you do not know how to write a good prompt, Jina has [tool](https://promptper
 2. [awesome-prompts](https://github.com/ai-boost/awesome-prompts) 5.2K
 3. [Github topic prompts](https://github.com/topics/prompts)
 4. [Github topic prompt-engineering](https://github.com/topics/prompt-engineering)
+5. [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)  50k
