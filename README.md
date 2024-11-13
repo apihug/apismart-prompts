@@ -12,6 +12,7 @@ if you do not know how to write a good prompt, Jina has [tool](https://promptper
 | sample                                      | comment            | 
 |---------------------------------------------|--------------------|
 | [api/api](./src/api/api.md)                 | apihug api writer  | 
+| [api/object](./src/api/object.md)           | apihug  message    | 
 | [coder/design](./src/coder/design.md)       | generic designer   | 
 | [coder/explain](./src/coder/explain.md)     | explain code logic | 
 | [coder/review](./src/coder/review.md)       | review code        | 
