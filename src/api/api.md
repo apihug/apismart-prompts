@@ -142,7 +142,8 @@ message Authorization {
 
 ### `parameters`
 
-Define the parameters and responses for your API using the `Parameters`, `Parameter`.
+- Use `Parameters` and `Parameter` to define API parameters and responses.
+- Omit parameter definitions if not required, especially for POST requests where input and output are specified in the rpc method.
 
 ```proto
 message Parameters {
