@@ -64,7 +64,7 @@ Specify the base path, description, and tags for your service.
 
 ### `hope.swagger.operation`
 
-Include details like HTTP method, summary, and parameters using the `Operation` message.
+Specify HTTP method, summary, and parameters with the `Operation` message. Omit `bool` properties with default `false`.
 
 ```protobuf
 message Operation {
