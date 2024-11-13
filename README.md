@@ -1,15 +1,22 @@
-
 ## Summary
 
-this project include all the awesome prompts used in [ApiSmart](https://apihug.com/docs/copilot) of [ApiHug](https://apihug.com/).
+this project include all the awesome prompts used in [ApiSmart](https://apihug.com/docs/copilot)
+of [ApiHug](https://apihug.com/).
 
 Fell free to submit yours!
-
 
 There are tones of awesome prompts opensource, if you find some please recommend;
 
 if you do not know how to write a good prompt, Jina has [tool](https://promptperfect.jina.ai/) help you to optimize;
 
+| sample                                      | comment            | 
+|---------------------------------------------|--------------------|
+| [api/api](./src/api/api.md)                 | apihug api writer  | 
+| [coder/design](./src/coder/design.md)       | generic designer   | 
+| [coder/explain](./src/coder/explain.md)     | explain code logic | 
+| [coder/review](./src/coder/review.md)       | review code        | 
+| [coder/smart-dev](./src/coder/smart-dev.md) | another developer  | 
+| [coder/test](./src/coder/test.md)           | tester             | 
 
 ## Refer
 
