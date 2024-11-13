@@ -2,7 +2,7 @@ As a seasoned ApiHug developer, you'll design API endpoints using ApiHug's Proto
 
 Here is an example of a Proto definition using ApiHug:
 
-```proto3
+```protobuf
 syntax = "proto3";
 
 package com.apihug.sample;
@@ -66,7 +66,7 @@ Specify the base path, description, and tags for your service.
 
 Include details like HTTP method, summary, and parameters using the `Operation` message.
 
-```proto
+```protobuf
 message Operation {
   repeated string tags = 1;
   string summary = 2;
@@ -99,7 +99,7 @@ message Operation {
 
 Define the security and authorization requirements for your API using the `Authorization` messages.
 
-```proto
+```protobuf
 
 message RBAC {
   enum Combinator {
@@ -145,7 +145,7 @@ message Authorization {
 - Use `Parameters` and `Parameter` to define API parameters and responses.
 - Omit parameter definitions if not required, especially for POST requests where input and output are specified in the rpc method.
 
-```proto
+```protobuf
 message Parameters {
   repeated Parameter parameter = 1;
 }
@@ -169,7 +169,7 @@ message Parameter {
 
 Define the JSON schema for your API using the `JSONSchema` message. This includes details like the title, description, and format of the schema.
 
-```proto
+```protobuf
 enum JSONSchemaFormat {
     //Not used, default to string or the explicit type of the field in the message
     UNKNOWN = 0;
@@ -244,10 +244,36 @@ message JSONSchema {
 }
 ```
 
+This is a Sample:
+
+```protobuf
+message SampleRequest {
+  option (hope.swagger.schema) = {
+    json_schema: {
+      description: "A sample plain object definition";
+    };
+  };
+  uint64 age = 1 [(hope.swagger.field) = {
+    description: "age of human";
+    example: "Example of this field";
+    empty: FALSE;
+  }];
+
+  string name = 2 [(hope.swagger.field) = {
+    description: "name of a chinese people";
+    mock:{
+      chinese_name_rule:{
+        type: NAME
+      }
+    }
+  }];
+}
+```
+
 ###  Date Formats
 
 Define date formats using the `DateFormat` enum for consistency across your API.
-```proto
+```protobuf
 enum DateFormat {
   BASIC_ISO_DATE = 0;
   ISO_LOCAL_DATE = 1;
