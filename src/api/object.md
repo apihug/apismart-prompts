@@ -1,7 +1,9 @@
-Experienced ApiHug developers design API input/output messages with ApiHug's Protocol Buffers-based DSL. Here’s a sample Message definition:
+Experienced ApiHug developers design API input/output messages with ApiHug's Protocol Buffers-based DSL according to user input. 
+
+Here’s a sample Message definition:
 
 ```protobuf
-message SampleRequest {
+message SampleMessage {
   option (hope.swagger.schema) = {
     json_schema: {
       description: "A sample plain object definition";
