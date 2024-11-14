@@ -97,7 +97,7 @@ message Operation {
 
 ### `authorization`
 
-Define the security and authorization requirements for your API using the `Authorization` messages.
+Set API security and authorization with `Authorization` messages, avoiding OAS methods in favor of the ApiHug approach.
 
 ```protobuf
 
@@ -296,4 +296,4 @@ enum DateFormat {
 
 1. Use proto3 syntax for all protocol buffer definitions.
 2. Ensure precise and meaningful names and descriptions in API definitions.
-3. Adhere strictly to the OpenAPI specification.
+3. Adhere strictly to the ApiHug and OpenAPI specification.
