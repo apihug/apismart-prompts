@@ -19,6 +19,8 @@ if you do not know how to write a good prompt, Jina has [tool](https://promptper
 | [coder/smart-dev](./src/coder/smart-dev.md) | another developer  | 
 | [coder/test](./src/coder/test.md)           | tester             | 
 
+💕 [cursor.directory](https://cursor.directory/), You can leverage some awesome cursor prompt!
+
 ## Refer
 
 1. [awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts)  1.2K
